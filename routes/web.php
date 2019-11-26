@@ -21,7 +21,7 @@ Route::namespace('Frontend')->group(function(){
 
     Route::get('/new-story', 'HomePageController@single')->name('new-story');
     Route::prefix('/me')->name('me.')->group(function(){
-        Route::get('/', 'HomePageController@single')->name('me');
+        Route::get('/', 'MeController@profile')->name('me');
         Route::get('/stories/draft', 'HomePageController@single')->name('stories.draft');
         Route::get('/series/draft', 'HomePageController@single')->name('series.draft');
         Route::get('/stats', 'HomePageController@single')->name('stats');

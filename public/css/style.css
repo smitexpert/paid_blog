@@ -639,10 +639,13 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   position: relative;
 }
 
+.top-header {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+
 .top-header .container {
-  padding-top: 35px;
-  padding-bottom: 35px;
-  border-bottom: 1px solid #dedede;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .top-header .dropdown-menu {
