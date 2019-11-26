@@ -29,7 +29,7 @@
     <link rel="stylesheet" type="text/css"
         href="{{ url('') }}/plugins/revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" type="text/css"
-        href="{{ url('') }}/plugins/revolution-slider/revolution/fonts/font-awesome/css/font-awesome.css">
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="{{ url('') }}/plugins/revolution-slider/revolution/css/settings.css">
