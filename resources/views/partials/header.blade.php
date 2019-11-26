@@ -33,11 +33,25 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i class="fa fa-user"></i></a>
                 <div class="dropdown-menu cart-dropdown">
                     <div class="media">
+                        <a href="#" class="btn-block">Become A Member</a>
+                    </div>
+                    <div class="media">
                         <a href="{{ route('me.me') }}" class="btn-block">Profile</a>
                         <a href="{{ route('new-story') }}" class="btn-block">New Story</a>
                         <a href="{{ route('me.stories.draft') }}" class="btn-block">Stories</a>
                         <a href="{{ route('me.series.draft') }}" class="btn-block">Series</a>
                         <a href="{{ route('me.stats') }}" class="btn-block">Stats</a>
+                    </div>
+                    <div class="media">
+                        <a href="#" class="btn-block">Partner Program</a>
+                    </div>
+                    <div class="media">
+                        <a href="#" class="btn-block">Bookmark</a>
+                        <a href="#" class="btn-block">Customize Your Interest</a>
+                    </div>
+                    <div class="media">
+                        <a href="#" class="btn-block">Settings</a>
+                        <a href="#" class="btn-block">Sign out</a>
                     </div>
                 </div>
 
