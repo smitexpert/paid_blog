@@ -1,28 +1,46 @@
-@extends('layouts.app')
+@extends('layouts.single')
 
 @section('content')
-<div class="post post-single">
+<div class="post">
+    <h2 class="post-title">How To Wear Bright Shoes</h2>
+    <br>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="post-author">
+                <div class="author-img">
+                    <img src="https://dummyimage.com/50x50/000/fff" alt="" class="img-circle img-responsive">
+                </div>
+                <div class="author-details">
+                    <div class="pull-left">
+                            <h4>Sujan Molla</h4>
+                    </div>
+                    <a href="#" class="follow-btn-sm">Following</a>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p><i class="tf-ion-ios-calendar"></i> 20, MAR 2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="pull-right">
+                <div class="social-media-list">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook-square"></i></a><li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a><li>
+                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a><li>
+                        <li><a href="#"><i class="fa fa-bookmark-o"></i></a><li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
     <div class="post-thumb">
         <img class="img-responsive" src="images/blog/blog-post-1.jpg" alt="">
     </div>
-    <h2 class="post-title">How To Wear Bright Shoes</h2>
-    <div class="post-meta">
-        <ul>
-            <li>
-                <i class="tf-ion-ios-calendar"></i> 20, MAR 2017
-            </li>
-            <li>
-                <i class="tf-ion-android-person"></i> POSTED BY ADMIN
-            </li>
-            <li>
-                <a href="#"><i class="tf-ion-ios-pricetags"></i> LIFESTYLE</a>,<a href="#"> TRAVEL</a>,
-                <a href="#">FASHION</a>
-            </li>
-            <li>
-                <a href="#"><i class="tf-ion-chatbubbles"></i> 4 COMMENTS</a>
-            </li>
-        </ul>
-    </div>
+
     <div class="post-content post-excerpt">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto
             nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto

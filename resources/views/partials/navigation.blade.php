@@ -25,7 +25,7 @@
                             <a href="{{ route('posts') }}">All Post</a>
                         </li>
                         <li class="dropdown ">
-                            <a href="{{ route('singe') }}">Single Post</a>
+                            <a href="{{ route('single') }}">Single Post</a>
                         </li>
                     </ul><!-- / .nav .navbar-nav -->
     

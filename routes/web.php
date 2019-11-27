@@ -17,7 +17,7 @@ Route::fallback(function () {
 Route::namespace('Frontend')->group(function(){
     Route::get('/', 'HomePageController@index')->name('home');
     Route::get('/posts/all', 'HomePageController@index')->name('posts');
-    Route::get('/single', 'HomePageController@single')->name('singe');
+    Route::get('/single', 'HomePageController@single')->name('single');
 
     Route::get('/new-story', 'HomePageController@single')->name('new-story');
     Route::prefix('/me')->name('me.')->group(function(){

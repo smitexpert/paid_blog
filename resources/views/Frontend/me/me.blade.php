@@ -1,4 +1,4 @@
-@extends('layouts.single')
+@extends('layouts.profile')
 
 @section('content')
     <div class="row">
@@ -22,6 +22,32 @@
                 <li><a href="#">Claps</a></li>
                 <li><a href="#">Response</a></li>
             </ul>
+        </div>
+    </div>
+    {{-- <br> --}}
+    <div class="page-wrapper">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="post">
+                    <div class="post-author">
+                        <div class="author-img">
+                            <img src="https://dummyimage.com/50x50/000/fff" alt="" class="img-circle img-responsive">
+                        </div>
+                        <div class="author-details">
+                            <h4>Sujan Molla</h4>
+                            <p><i class="tf-ion-ios-calendar"></i> 20, MAR 2017</p>
+                        </div>
+                    </div>
+                    <div class="post-thumb">
+                        <a href="{{ route('single') }}">
+                            <img class="img-responsive" src="images/blog/blog-post-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <h1 class="post-title"><a href="{{ route('single') }}">How To Wear Bright Shoes</a></h1>
+                    <p class="post-subtitle"><a href="{{ route('single') }}">The Actual Way to wear bright shoes by self.</a></p>
+                    <a href="{{ route('single') }}" class="read-more">Read More...</a>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

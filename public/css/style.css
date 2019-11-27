@@ -121,6 +121,28 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border: 1px solid #000;
 }
 
+.follow-btn-sm-o {
+  font-size: 10px;
+  color: #00aced;
+  border: 1px solid #00aced;
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin: 5px;
+  margin-top: 3px;
+  position: absolute;
+}
+
+.follow-btn-sm {
+  font-size: 10px;
+  color: #fff;
+  background: #00aced;
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin: 5px;
+  margin-top: 3px;
+  position: absolute;
+}
+
 .btn-main, .btn-solid-border, .btn-transparent, .btn-small {
   background: #000;
   color: #fff;
@@ -132,6 +154,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   font-weight: 200;
   border-radius: 0;
 }
+
 
 .btn-main.btn-icon i, .btn-icon.btn-solid-border i, .btn-icon.btn-transparent i, .btn-icon.btn-small i {
   font-size: 16px;
@@ -1615,11 +1638,42 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .post .post-title {
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 10px;
   margin: 25px 0 0;
-  padding: 0 20px 5px;
-  font-weight: 300;
+  padding: 0 0 5px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -.015em;
+}
+
+.post .post-author {
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.post .post-author .author-img {
+  width: 60px;
+  height: auto;
+  float: left;
+}
+
+.post .post-author .author-details {
+  float: left;
+}
+
+.post .post-author .author-details h4 {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.post .post-author .author-details p {
+  font-size: 12px;
+}
+
+.post .post-subtitle a {
+  color: rgb(131, 131, 131);
+  font-size: 18px;
 }
 
 .post .post-title a {
@@ -1658,12 +1712,12 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .post .post-content {
-  padding: 5px 20px;
+  padding: 5px 0;
 }
 
 .post .post-content p {
-  color: #444;
-  font-size: 14px;
+  color: #000;
+  font-size: 16px;
   margin: 10px 0;
 }
 
@@ -1777,7 +1831,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .post-excerpt {
-  padding: 0 20px;
+  /* padding: 0 20px; */
   margin-bottom: 60px;
 }
 
@@ -1793,7 +1847,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 .post-excerpt p {
   font-size: 16px;
-  color: #5e5e5e;
+  color: #111111;
   margin: 0 0 30px;
   line-height: 30px;
 }
@@ -1833,6 +1887,22 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 .next-prev .next-post i {
   margin-left: 10px;
+}
+
+.social-media-list {
+  margin-top: 35px;
+}
+
+.social-media-list ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-list ul li {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 22px;
 }
 
 .social-profile ul li {
