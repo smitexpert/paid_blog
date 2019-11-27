@@ -8,16 +8,16 @@
         <div class="col-sm-6">
             <div class="post-author">
                 <div class="author-img">
-                    <img src="https://dummyimage.com/50x50/000/fff" alt="" class="img-circle img-responsive">
+                    <a href="#"><img src="https://dummyimage.com/50x50/000/fff" alt="" class="img-circle img-responsive"></a>
                 </div>
                 <div class="author-details">
                     <div class="pull-left">
-                            <h4>Sujan Molla</h4>
+                        <a href="#"><h4>Sujan Molla</h4></a>
                     </div>
                     <a href="#" class="follow-btn-sm">Following</a>
                     <div class="row">
                         <div class="col-xs-12">
-                            <p><i class="tf-ion-ios-calendar"></i> 20, MAR 2017</p>
+                            <p><i class="fa fa-calendar"></i> 20, MAR 2017</p>
                         </div>
                     </div>
                 </div>
@@ -87,212 +87,71 @@
             deleniti, vero voluptatem error aspernatur veniam expedita numquam amet quia in dolores
             velit esse molestiae! Iusto architecto accusantium quisquam recusandae quod vero quia.</p>
     </div>
-    <div class="post-social-share">
-        <h3 class="post-sub-heading">Share this post</h3>
-        <div class="social-media-icons">
-            <ul>
-                <li><a class="facebook" href="#"><i class="tf-ion-social-facebook"></i></a></li>
-                <li><a class="twitter" href="#"><i class="tf-ion-social-twitter"></i></a></li>
-                <li><a class="dribbble" href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-                <li><a class="instagram" href="#"><i class="tf-ion-social-instagram"></i></a></li>
-                <li><a class="googleplus" href="#"><i class="tf-ion-social-googleplus"></i></a></li>
-            </ul>
+    <div class="post-footer-tags">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="#" class="btn btn-sm btn-default">TAGS</a>
+                <a href="#" class="btn btn-sm btn-default">TAGS</a>
+                <a href="#" class="btn btn-sm btn-default">TAGS</a>
+            </div>
         </div>
     </div>
-
-    <div class="post-comments">
-        <h3 class="post-sub-heading">10 Comments</h3>
-        <ul class="media-list comments-list m-bot-50 clearlist">
-            <!-- Comment Item start-->
-            <li class="media">
-
-                <a class="pull-left" href="#">
-                    <img class="media-object comment-avatar" src="images/blog/avater-1.jpg" alt=""
-                        width="50" height="50">
-                </a>
-
-                <div class="media-body">
-                    <div class="comment-info">
-                        <h4 class="comment-author">
-                            <a href="#">Jonathon Andrew</a>
-
-                        </h4>
-                        <time>July 02, 2015, at 11:34</time>
-                        <a class="comment-button" href="#"><i class="tf-ion-chatbubbles"></i>Reply</a>
-                    </div>
-
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut
-                        ante eleifend eleifend.
-                    </p>
-
-                    <!--  second level Comment start-->
-                    <div class="media">
-
-                        <a class="pull-left" href="#">
-                            <img class="media-object comment-avatar" src="images/blog/avater-2.jpg"
-                                alt="" width="50" height="50">
-                        </a>
-
-                        <div class="media-body">
-
-                            <div class="comment-info">
-                                <div class="comment-author">
-                                    <a href="#">Senorita</a>
-                                </div>
-                                <time>July 02, 2015, at 11:34</time>
-                                <a class="comment-button" href="#"><i
-                                        class="tf-ion-chatbubbles"></i>Reply</a>
-                            </div>
-
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at
-                                magna ut ante eleifend eleifend.
-                            </p>
-
-
-                            <!-- third level Comment start -->
-                            <div class="media">
-
-                                <a class="pull-left" href="#">
-                                    <img class="media-object comment-avatar"
-                                        src="images/blog/avater-3.jpg" alt="" width="50" height="50">
-                                </a>
-
-                                <div class="media-body">
-
-                                    <div class="comment-info">
-                                        <div class="comment-author">
-                                            <a href="#">Senorita</a>
-                                        </div>
-                                        <time>July 02, 2015, at 11:34</time>
-                                        <a class="comment-button" href="#"><i
-                                                class="tf-ion-chatbubbles"></i>Reply</a>
-                                    </div>
-
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                                        at magna ut ante eleifend eleifend.
-                                    </p>
-
-
-                                </div>
-
-                            </div>
-                            <!-- third level Comment end -->
-
-                        </div>
-
-                    </div>
-                    <!-- second level Comment end -->
-
-                </div>
-
-            </li>
-            <!-- End Comment Item -->
-
-            <!-- Comment Item start-->
-            <li class="media">
-
-                <a class="pull-left" href="#">
-                    <img class="media-object comment-avatar" src="images/blog/avater-4.jpg" alt=""
-                        width="50" height="50">
-                </a>
-
-                <div class="media-body">
-
-                    <div class="comment-info">
-                        <div class="comment-author">
-                            <a href="#">Jonathon Andrew</a>
-                        </div>
-                        <time>July 02, 2015, at 11:34</time>
-                        <a class="comment-button" href="#"><i class="tf-ion-chatbubbles"></i>Reply</a>
-                    </div>
-
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut
-                        ante eleifend eleifend.
-                    </p>
-
-                </div>
-
-            </li>
-            <!-- End Comment Item -->
-
-            <!-- Comment Item start-->
-            <li class="media">
-
-                <a class="pull-left" href="#">
-                    <img class="media-object comment-avatar" src="images/blog/avater-1.jpg" alt=""
-                        width="50" height="50">
-                </a>
-
-                <div class="media-body">
-
-                    <div class="comment-info">
-                        <div class="comment-author">
-                            <a href="#">Jonathon Andrew</a>
-                        </div>
-                        <time>July 02, 2015, at 11:34</time>
-                        <a class="comment-button" href="#"><i class="tf-ion-chatbubbles"></i>Reply</a>
-                    </div>
-
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at magna ut
-                        ante eleifend eleifend.
-                    </p>
-
-                </div>
-
-            </li>
-            <!-- End Comment Item -->
-
-        </ul>
-    </div>
-
-    <div class="post-comments-form">
-        <h3 class="post-sub-heading">Leave You Comments</h3>
-        <form method="post" action="#" id="form" role="form">
-
-            <div class="row">
-
-                <div class="col-md-6 form-group">
-                    <!-- Name -->
-                    <input type="text" name="name" id="name" class=" form-control" placeholder="Name *"
-                        maxlength="100" required="">
-                </div>
-
-                <div class="col-md-6 form-group">
-                    <!-- Email -->
-                    <input type="email" name="email" id="email" class=" form-control"
-                        placeholder="Email *" maxlength="100" required="">
-                </div>
-
-
-                <div class="form-group col-md-12">
-                    <!-- Website -->
-                    <input type="text" name="website" id="website" class=" form-control"
-                        placeholder="Website" maxlength="100">
-                </div>
-
-                <!-- Comment -->
-                <div class="form-group col-md-12">
-                    <textarea name="text" id="text" class=" form-control" rows="6" placeholder="Comment"
-                        maxlength="400"></textarea>
-                </div>
-
-                <!-- Send Button -->
-                <div class="form-group col-md-12">
-                    <button type="submit" class="btn btn-small btn-main ">
-                        Send comment
-                    </button>
-                </div>
-
-
+    <div class="post-footer-tools">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="#"><h3 class="post-footer-claps"><i class="fa fa-sign-language"></i></h3></a>
             </div>
-
-        </form>
+            <div class="col-md-6">
+                <div class="pull-right">
+                    <div class="social-media-list">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook-square"></i></a><li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a><li>
+                            <li><a href="#"><i class="fa fa-linkedin-square"></i></a><li>
+                            <li><a href="#"><i class="fa fa-bookmark-o"></i></a><li>
+                            <li class="dropdown dropdown-slide">
+                                <a href="#"><i class="fa fa-ellipsis-h"></i></a>
+                                <div class="dropdown-menu cart-dropdown blog-footer-dropdown">
+                                    <div class="media">
+                                        <a href="#" class="btn-block">Report Story</a>
+                                        <a href="#" class="btn-block">Block Author</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="post-footer-author">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="pull-left">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="post-footer-author-img">
+                                <a href="#"><img class="img-responsive img-circle" src="https://dummyimage.com/100x100/000/fff" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-10">
+                            <div class="post-footer-author-details">
+                                <p class="small">WRITTEN BY</p>
+                                <a href="#"><h3>Sujan Molla</h3></a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam.</p>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="pull-right">
+                    <a href="#" class="follow-btn-lg">Following</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
 
 </div>

@@ -143,6 +143,26 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   position: absolute;
 }
 
+.follow-btn-lg-o {
+  font-size: 14px;
+  color: #00aced;
+  border: 1px solid #00aced;
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin: 5px;
+  margin-top: 3px;
+}
+
+.follow-btn-lg {
+  font-size: 14px;
+  color: #fff;
+  background: #00aced;
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin: 5px;
+  margin-top: 3px;
+}
+
 .btn-main, .btn-solid-border, .btn-transparent, .btn-small {
   background: #000;
   color: #fff;
@@ -468,6 +488,11 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 .dropdown-slide {
   position: static;
+}
+
+.blog-footer-dropdown {
+  left: auto;
+  right: 0;
 }
 
 .dropdown-slide .open > a, .dropdown-slide .open > a:focus, .dropdown-slide .open > a:hover {
@@ -1624,7 +1649,6 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .post {
   background: #fff;
   margin-bottom: 40px;
-  border-bottom: 1px solid #dedede;
   padding-bottom: 20px;
 }
 
@@ -1650,6 +1674,56 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .post .post-author {
   padding: 10px 0;
   display: inline-block;
+}
+
+.post-footer-tools {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.post-footer-claps {
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 500px;
+  width: 50px;
+  height: 50px;
+}
+
+.post-footer-claps i {
+  margin: 3px;
+}
+
+.post-footer-author {
+  width: 100%;
+  float: left;
+  padding: 25px 0;
+  margin: 30px 0;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+
+.post-footer-author-img {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.post-footer-author-details {
+  float: left;
+  margin-left: 20px;
+}
+
+.post-footer-author-details .small {
+  margin: 0;
+  margin-top: 5px;
+  letter-spacing: 0.05em;
+}
+
+.post-footer-author-details h3 {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.03em;
 }
 
 .post .post-author .author-img {
@@ -1893,13 +1967,13 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   margin-top: 35px;
 }
 
-.social-media-list ul{
+.social-media-list > ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.social-media-list ul li {
+.social-media-list > ul > li {
   display: inline-block;
   margin-left: 5px;
   font-size: 22px;
