@@ -89,7 +89,7 @@
     </div>
     <div class="post-footer-tags">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12">
                 <a href="#" class="btn btn-sm btn-default">TAGS</a>
                 <a href="#" class="btn btn-sm btn-default">TAGS</a>
                 <a href="#" class="btn btn-sm btn-default">TAGS</a>
@@ -98,10 +98,10 @@
     </div>
     <div class="post-footer-tools">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-xs-6">
                 <a href="#"><h3 class="post-footer-claps"><i class="fa fa-sign-language"></i></h3></a>
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-6">
                 <div class="pull-right">
                     <div class="social-media-list">
                         <ul>
@@ -137,7 +137,7 @@
                         <div class="col-sm-10">
                             <div class="post-footer-author-details">
                                 <p class="small">WRITTEN BY</p>
-                                <a href="#"><h3>Sujan Molla</h3></a>
+                                <a href="#"><h3>Sujan Molla <span class="verified fa fa-check-circle-o" title="Verified User"></span></h3></a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam.</p>
                             </div>
                         </div>    
@@ -150,6 +150,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="post-footer-response">
+        <a href="#" class="btn-post-footer-view-response">Write the first response</a>
     </div>
     
 

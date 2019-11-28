@@ -16,8 +16,11 @@ Route::fallback(function () {
 
 Route::namespace('Frontend')->group(function(){
     Route::get('/', 'HomePageController@index')->name('home');
+    Route::get('/topic', 'TopicPageController@index')->name('topic');
+    Route::get('/tag', 'TagPageController@index')->name('tag');
     Route::get('/posts/all', 'HomePageController@index')->name('posts');
     Route::get('/single', 'HomePageController@single')->name('single');
+    Route::get('/@profile', 'ProfileController@index')->name('profile');
 
     Route::get('/new-story', 'HomePageController@single')->name('new-story');
     Route::prefix('/me')->name('me.')->group(function(){

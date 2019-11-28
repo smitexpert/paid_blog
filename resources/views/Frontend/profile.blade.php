@@ -1,9 +1,19 @@
-@extends('layouts.me')
+@extends('layouts.profile')
 
 @section('content')
     <div class="row">
         <div class="col-sm-6">
-            <h1>Sujan Molla <span class="verified fa fa-check-circle-o" title="Verified User"></span></h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pull-left">
+                            <h1>Sujan Molla <span class="verified fa fa-check-circle-o" title="Verified User"></span></h1>
+                    </div>
+                    <div class="pull-left" style="margin-top: 8px;">
+                        <br>
+                        <a href="#" class="follow-btn-lg-o">Following</a>
+                    </div>
+                </div>
+            </div>
             <p>Lorem ipsum dolor sit amet.</p>
             <p class="small">
                 <a href="#" class="btn-link">0 Following</a> <span style="color: 000; font-size:6px; padding: 0 5px;" class="fa fa-minus"></span> <a href="#" class="btn-link">0 Followers</a>
@@ -12,6 +22,15 @@
         <div class="col-sm-6">
             <div class="pull-right">
                 <img src="https://dummyimage.com/150x150/000/fff" alt="" class="img-circle img-responsive">
+            </div>
+        </div>
+    </div>
+    <div class="profile-info">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="profile-info-text">
+                    Member scence 2019, Writer in tag1, tag2..
+                </p>
             </div>
         </div>
     </div>
@@ -46,6 +65,24 @@
                     <h1 class="post-title"><a href="{{ route('single') }}">How To Wear Bright Shoes</a></h1>
                     <p class="post-subtitle"><a href="{{ route('single') }}">The Actual Way to wear bright shoes by self.</a></p>
                     <a href="{{ route('single') }}" class="read-more">Read More...</a>
+                </div>
+                <div class="text-center">
+                    <ul class="pagination post-pagination">
+                        <li><a href="#">Prev</a>
+                        </li>
+                        <li class="active"><a href="#">1</a>
+                        </li>
+                        <li><a href="#">2</a>
+                        </li>
+                        <li><a href="#">3</a>
+                        </li>
+                        <li><a href="#">4</a>
+                        </li>
+                        <li><a href="#">5</a>
+                        </li>
+                        <li><a href="#">Next</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

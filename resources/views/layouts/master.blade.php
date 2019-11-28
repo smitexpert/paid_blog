@@ -32,9 +32,9 @@
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- REVOLUTION STYLE SHEETS -->
-    <link rel="stylesheet" type="text/css" href="{{ url('') }}/plugins/revolution-slider/revolution/css/settings.css">
+    {{-- <link rel="stylesheet" type="text/css" href="{{ url('') }}/plugins/revolution-slider/revolution/css/settings.css">
     <link rel="stylesheet" type="text/css" href="{{ url('') }}/plugins/revolution-slider/revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="{{ url('') }}/plugins/revolution-slider/revolution/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="{{ url('') }}/plugins/revolution-slider/revolution/css/navigation.css"> --}}
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="{{ url('') }}/css/style.css">
@@ -64,7 +64,7 @@
 <script src="{{ url('') }}/plugins/SyoTimer/build/jquery.syotimer.min.js"></script>
 
 <!-- Revolution Slider -->
-<script type="text/javascript"
+{{-- <script type="text/javascript"
     src="{{ url('') }}/plugins/revolution-slider/revolution/js/jquery.themepunch.tools.min.js"></script>
 <script type="text/javascript"
     src="{{ url('') }}/plugins/revolution-slider/revolution/js/jquery.themepunch.revolution.min.js"></script>
@@ -90,7 +90,7 @@
     src="{{ url('') }}/plugins/revolution-slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
 <script type="text/javascript"
     src="{{ url('') }}/plugins/revolution-slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script type="text/javascript" src="{{ url('') }}/plugins/revolution-slider/assets/warning.js"></script>
+<script type="text/javascript" src="{{ url('') }}/plugins/revolution-slider/assets/warning.js"></script> --}}
 
 
 

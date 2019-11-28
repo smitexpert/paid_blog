@@ -3,74 +3,46 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="post">
+                    <div class="post-author">
+                        <div class="author-img">
+                            <a href="#"><img src="https://dummyimage.com/50x50/000/fff" alt="" class="img-circle img-responsive"></a>
+                        </div>
+                        <div class="author-details">
+                            <a href="#"><h4>Sujan Molla <span class="verified fa fa-check-circle-o" title="Verified User"></span></h4></a>
+                            <p><i class="tf-ion-ios-calendar"></i> 20, MAR 2017</p>
+                        </div>
+                    </div>
                     <div class="post-thumb">
-                        <a href="#">
+                        <a href="{{ route('single') }}">
                             <img class="img-responsive" src="images/blog/blog-post-1.jpg" alt="">
                         </a>
                     </div>
-                    <h2 class="post-title"><a href="#">How To Wear Bright Shoes</a></h2>
-                    <div class="post-meta">
-                        <ul>
-                            <li>
-                                <i class="tf-ion-ios-calendar"></i> 20, MAR 2017
-                            </li>
-                            <li>
-                                <i class="tf-ion-android-person"></i> POSTED BY ADMIN
-                            </li>
-                            <li>
-                                <a href="#"><i class="tf-ion-ios-pricetags"></i> LIFESTYLE</a>,<a href="#"> TRAVEL</a>, <a
-                            href="#">FASHION</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="tf-ion-chatbubbles"></i> 4 COMMENTS</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="post-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum
-                            asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam
-                            fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae ab doloremque accusamus
-                            sit, eos dolorum officiis a perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Quod, facere. </p>
-                        <a href="#" class="btn btn-main">Continue Reading</a>
-                    </div>
+                    <h1 class="post-title"><a href="{{ route('single') }}">How To Wear Bright Shoes</a></h1>
+                    <p class="post-subtitle"><a href="{{ route('single') }}">The Actual Way to wear bright shoes by self.</a></p>
+                    <a href="{{ route('single') }}" class="read-more">Read More...</a>
                 </div>
-            </div>
+            </div>      
             <div class="col-md-6">
                 <div class="post">
+                    <div class="post-author">
+                        <div class="author-img">
+                            <a href="#"><img src="https://dummyimage.com/50x50/000/fff" alt="" class="img-circle img-responsive"></a>
+                        </div>
+                        <div class="author-details">
+                            <a href="#"><h4>Sujan Molla <span class="verified fa fa-check-circle-o" title="Verified User"></span></h4></a>
+                            <p><i class="tf-ion-ios-calendar"></i> 20, MAR 2017</p>
+                        </div>
+                    </div>
                     <div class="post-thumb">
-                        <a href="#">
+                        <a href="{{ route('single') }}">
                             <img class="img-responsive" src="images/blog/blog-post-1.jpg" alt="">
                         </a>
                     </div>
-                    <h2 class="post-title"><a href="#">How To Wear Bright Shoes</a></h2>
-                    <div class="post-meta">
-                        <ul>
-                            <li>
-                                <i class="tf-ion-ios-calendar"></i> 20, MAR 2017
-                            </li>
-                            <li>
-                                <i class="tf-ion-android-person"></i> POSTED BY ADMIN
-                            </li>
-                            <li>
-                                <a href="#"><i class="tf-ion-ios-pricetags"></i> LIFESTYLE</a>,<a href="#"> TRAVEL</a>, <a
-                            href="#">FASHION</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="tf-ion-chatbubbles"></i> 4 COMMENTS</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="post-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum
-                            asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam
-                            fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae ab doloremque accusamus
-                            sit, eos dolorum officiis a perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Quod, facere. </p>
-                        <a href="#" class="btn btn-main">Continue Reading</a>
-                    </div>
+                    <h1 class="post-title"><a href="{{ route('single') }}">How To Wear Bright Shoes</a></h1>
+                    <p class="post-subtitle"><a href="{{ route('single') }}">The Actual Way to wear bright shoes by self.</a></p>
+                    <a href="{{ route('single') }}" class="read-more">Read More...</a>
                 </div>
-            </div>       
+            </div>      
         </div>
     </div>
 </div>

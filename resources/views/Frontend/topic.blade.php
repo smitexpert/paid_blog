@@ -1,5 +1,4 @@
-@extends('layouts.app')
-
+@extends('layouts.topic')
 @section('content')
 <div class="post">
     <div class="post-author">
@@ -13,7 +12,7 @@
     </div>
     <div class="post-thumb">
         <a href="{{ route('single') }}">
-            <img class="img-responsive" src="{{ url('') }}/images/blog/blog-post-1.jpg" alt="">
+            <img class="img-responsive" src="images/blog/blog-post-1.jpg" alt="">
         </a>
     </div>
     <h1 class="post-title"><a href="{{ route('single') }}">How To Wear Bright Shoes</a></h1>
@@ -67,5 +66,5 @@
         <li><a href="#">Next</a>
         </li>
     </ul>
-</div>    
+</div>
 @endsection

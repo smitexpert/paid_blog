@@ -22,10 +22,19 @@
                             <a href="{{ route('home') }}">Home</a>
                         </li>
                         <li class="dropdown ">
+                            <a href="{{ route('topic') }}">Topic</a>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="{{ route('tag') }}">Tag</a>
+                        </li>
+                        <li class="dropdown ">
                             <a href="{{ route('posts') }}">All Post</a>
                         </li>
                         <li class="dropdown ">
                             <a href="{{ route('single') }}">Single Post</a>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="{{ route('profile') }}">Profile</a>
                         </li>
                     </ul><!-- / .nav .navbar-nav -->
     

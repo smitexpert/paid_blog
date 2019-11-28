@@ -1676,6 +1676,46 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   display: inline-block;
 }
 
+.posts {
+  background: #fff;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  position: relative;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.posts .post-media.post-thumb img {
+  width: 100%;
+  height: auto;
+}
+
+.posts .post-media.post-media-audio iframe {
+  width: 100%;
+}
+
+.posts .post-title {
+  font-size: 30px;
+  margin-top: 10px;
+  /* margin: 25px 0 0; */
+  padding: 0 0 5px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -.015em;
+}
+
+.posts .post-author {
+  padding: 10px 0;
+  display: inline-block;
+}
+.posts .author-details {
+  margin-top: 10px;
+}
+.posts img {
+  width: 200px;
+  height: 200px;
+}
+
 .post-footer-tools {
   width: 100%;
   height: auto;
@@ -1724,6 +1764,20 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   padding: 0;
   margin: 0;
   letter-spacing: 0.03em;
+}
+
+span.verified {
+  color: #00aced;
+}
+
+.btn-post-footer-view-response {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #00aced;
+  padding: 15px;
+  border-radius: 6px;
+  color: #00aced;
 }
 
 .post .post-author .author-img {
@@ -1984,6 +2038,10 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   display: inline-block;
 }
 
+.profile-info {
+  margin: 10px 0;
+}
+
 .social-profile ul li a {
   color: #4e595f;
   display: block;
@@ -2083,6 +2141,34 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+/* .widget .widget-topic {
+  
+} */
+
+.widget.widget-topic .widget-follow-btn-o {
+  display: inline-block;
+  border: 1px solid #00aced;
+  font-size: 12px;
+  color: #00aced;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 20px 0;
+}
+
+.widget.widget-topic .widget-follow-btn {
+  display: inline-block;
+  background: #00aced;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 20px 0;
+}
+
+.widget-tagged h2 {
+  margin: 0;
 }
 
 .widget.widget-subscription .form-group {
