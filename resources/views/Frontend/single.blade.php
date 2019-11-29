@@ -110,7 +110,7 @@
                             <li><a href="#"><i class="fa fa-linkedin-square"></i></a><li>
                             <li><a href="#"><i class="fa fa-bookmark-o"></i></a><li>
                             <li class="dropdown dropdown-slide">
-                                <a href="#"><i class="fa fa-ellipsis-h"></i></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i class="fa fa-ellipsis-h"></i></a>
                                 <div class="dropdown-menu cart-dropdown blog-footer-dropdown">
                                     <div class="media">
                                         <a href="#" class="btn-block">Report Story</a>
