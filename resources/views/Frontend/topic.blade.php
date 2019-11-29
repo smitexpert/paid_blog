@@ -30,7 +30,9 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a href="{{ route('single') }}"><img src="{{ url('') }}/images/blog/blog-post-1.jpg" alt="" class="img-responsive"></a>
+            <div class="posts-img">
+                <a href="{{ route('single') }}"><img src="{{ url('') }}/images/blog/blog-post-1.jpg" alt="" class="img-responsive"></a>
+            </div>
         </div>
     </div>
 </div>
@@ -45,7 +47,9 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a href="{{ route('single') }}"><img src="{{ url('') }}/images/blog/blog-post-1.jpg" alt="" class="img-responsive"></a>
+            <div class="posts-img">
+                <a href="{{ route('single') }}"><img src="{{ url('') }}/images/blog/blog-post-1.jpg" alt="" class="img-responsive"></a>
+            </div>
         </div>
     </div>
 </div>

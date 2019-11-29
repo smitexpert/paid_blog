@@ -153,7 +153,7 @@
     </div>
 
     <div class="post-footer-response">
-        <a href="#" class="btn-post-footer-view-response">Write the first response</a>
+        <a href="{{ route('response') }}" class="btn-post-footer-view-response">Write the first response</a>
     </div>
     
 
