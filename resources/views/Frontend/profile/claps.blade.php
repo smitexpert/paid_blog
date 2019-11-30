@@ -37,9 +37,9 @@
     <div class="row">
         <div class="col-md-12">
             <ul class="list-inline dashboard-menu">
-                <li><a class="active" href="#">Profile</a></li>
-                <li><a href="#">Claps</a></li>
-                <li><a href="#">Response</a></li>
+                <li><a class="{{ (Route::currentRouteName() == 'profile') ? 'active' : '' }}" href="{{ route('profile') }}">Profile</a></li>
+                <li><a class="{{ (Route::currentRouteName() == 'profile.claps') ? 'active' : '' }}" href="{{ route('profile.claps') }}">Claps</a></li>
+                <li><a class="{{ (Route::currentRouteName() == 'profile.responses') ? 'active' : '' }}" href="{{ route('profile.responses') }}">Response</a></li>
             </ul>
         </div>
     </div>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="post-thumb">
                         <a href="{{ route('single') }}">
-                            <img class="img-responsive" src="images/blog/blog-post-1.jpg" alt="">
+                            <img class="img-responsive" src="{{ url('') }}/images/blog/blog-post-1.jpg" alt="">
                         </a>
                     </div>
                     <h1 class="post-title"><a href="{{ route('single') }}">How To Wear Bright Shoes</a></h1>

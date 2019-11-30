@@ -21,6 +21,9 @@ Route::namespace('Frontend')->group(function(){
     Route::get('/posts/all', 'HomePageController@index')->name('posts');
     Route::get('/single', 'HomePageController@single')->name('single');
     Route::get('/@profile', 'ProfileController@index')->name('profile');
+    Route::get('/@profile/has-recommended', 'ProfileController@claps')->name('profile.claps');
+    Route::get('/@profile/responses', 'ProfileController@responses')->name('profile.responses');
+
     Route::get('/response', 'ResponseController@index')->name('response');
 
     Route::get('/new-story', 'HomePageController@single')->name('new-story');
